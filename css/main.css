@@ -1,0 +1,85 @@
+/* This site and its contents as well as source code is property of the River Dell Regional School District. It may not be reused, retransmitted, or reproduced without consent from the developer. */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
+
+body {
+  color: #FFF;
+  background-color: #252525;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+::selection {
+  background: #00f900;
+  color: #fff;
+}
+::-moz-selection {
+  background: #00f900;
+  color: #fff;
+}
+
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  opacity: 50%;
+}
+
+#footer {
+  position: fixed;
+  bottom:10px;
+  height:30px;
+  width:100%;
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.25);
+  z-index: 999;
+  text-align: center;
+  font-size: 13pt;
+}
+
+.logo-overlay h1 {
+  font-size: 60pt;
+  font-weight: 500;
+  width: 100%;
+
+}
+
+.logo-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  text-align: center;
+}
+
+.btn-one {
+  color: rgb(255,255,255) !important;
+  background-color: transparent;
+  border-radius: 0px;
+  border-width: 2px;
+  border-color: #fff;
+  font-weight: 300 !important;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 14pt;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+
+}
+
+.btn-one:hover {
+  color: #00f900 !important;
+  border-color: #00f900;
+  background-color: rgba(0, 249, 0, 0.5);
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+
+}
