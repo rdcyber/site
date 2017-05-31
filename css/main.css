@@ -53,7 +53,6 @@ a:hover {
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 100%;
   transform: translate(-50%, -50%);
   z-index: 999;
   text-align: center;
@@ -82,4 +81,25 @@ a:hover {
 	-moz-transition: all ease 0.2s;
 	transition: all ease 0.2s;
 
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: .15em solid #00f900;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .1em;
+  animation:
+    typing 1.75s steps(45, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #00f900; }
 }
